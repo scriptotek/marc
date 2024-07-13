@@ -223,7 +223,7 @@ class Field implements JsonSerializable, FieldInterface
             $ind2 = $blank;
         }
 
-        return "${tag} ${ind1}${ind2} " . implode(' ', $subfields);
+        return "{$tag} {$ind1}{$ind2} " . implode(' ', $subfields);
     }
 
     /**
